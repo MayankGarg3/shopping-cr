@@ -1,7 +1,7 @@
-import { CartContext, useCart } from "../context/CartContext";
+import { useCart } from "../context/CartContext";
 import { CartCard } from "../Components/CartCard";
 import { useTitle } from "../Hooks/useTitle";
-import { useContext } from "react";
+
 
 
 export const Cart = () => {
